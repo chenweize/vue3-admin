@@ -1,2 +1,2 @@
-# wz-web
-基于vue2.x的后台管理系统
+# vue3-admin
+基于vue3.x + Element Plus的后台管理系统
