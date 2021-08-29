@@ -23,8 +23,6 @@ module.exports = {
 	    config.module
 			.rule('md')
 			.test(/\.md$/)
-			.use('markdown-loader')
-			.loader('markdown-loader')
 	        .end()
 	}
 	

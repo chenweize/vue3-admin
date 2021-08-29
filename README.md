@@ -1,16 +1,6 @@
 # vue-manage-system-plus
 
-  <a href="https://v3.cn.vuejs.org/">
-    <img src="https://img.shields.io/badge/vue-3.0.0-brightgreen.svg" alt="vue">
-  </a>
-  <a href="https://element-plus.org/">
-    <img src="https://img.shields.io/badge/element--plus-1.0.2beta.33-brightgreen.svg" alt="element-ui">
-  </a>
-  <a href="https://github.com/lss5270/vue-manage-system-plus/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
-
-采用Vue3 + Element Plus 搭建的后台管理系统解决方案，基于vue-manage-system升级定制而成，企业级定制，注释清晰，快速上手，开箱即用。[线上地址](https://lss5270.github.io/vue-manage-system-plus-demo/)
+采用Vue3 + Element Plus 搭建的后台管理系统解决方案，基于vue-manage-system升级定制而成，企业级定制，注释清晰，快速上手，开箱即用。
 
 # 前言
 
@@ -33,42 +23,6 @@ vue发布3.0已经有一段时间了，一直想练练手。github上搜了一�
 - [ ] 兼容桌面端（待加）
 
 以上打勾的代表个人已经改造完成，使其更贴切企业应用，免费开源，可以为广大开发爱好者减少框架底层搭建成本、节省时间，即使是后端开发人员也能轻易上手，开箱即用。
-
-## 项目截图
-
-### 登录（小屏不清晰可以下载图片预览）
-
-（admin账号返回8个菜单，user账号返回4个菜单）
-
-![Image text](https://github.com/lss5270/vue-manage-system-plus/blob/main/screenshots/loginDemo.gif)
-
-账号错误提示
-
-![Image text](https://github.com/lss5270/vue-manage-system-plus/blob/main/screenshots/admin11.png)
-
-admin账号登录返回8个菜单
-
-![Image text](https://github.com/lss5270/vue-manage-system-plus/blob/main/screenshots/admin.png)
-
-user账号登录返回4个菜单
-
-![Image text](https://github.com/lss5270/vue-manage-system-plus/blob/main/screenshots/user.png)
-
-### 403和404重定向（小屏不清晰可以下载图片预览）
-
-演示三种链接敲击情况：
-
-1. 敲击已存在并且已授权的路由（直接进入路由）
-2. 敲击已存在但是未授权的路由（重定向到403）
-3. 敲击不存在的路由（重定向到404）
-
-![Image text](https://github.com/lss5270/vue-manage-system-plus/blob/main/screenshots/403and404.gif)
-
-## 赞赏
-
-请作者喝杯咖啡吧！(微信号：)
-
-
 
 ## 系统介绍
 
@@ -108,63 +62,6 @@ npm run serve
 // 执行构建命令，生成的dist文件夹放在服务器下即可访问
 npm run build
 ```
-
-## 组件使用说明与演示
-
-### vue-schart
-
-vue.js 封装 sChart.js 的图表组件。访问地址：[vue-schart]()
-
-<p><a href="https://www.npmjs.com/package/vue-schart"><img src="https://img.shields.io/npm/dm/vue-schart.svg" alt="Downloads"></a></p>
-
-```html
-<template>
-    <div>
-        <schart class="wrapper" canvasId="myCanvas" :options="options"></schart>
-    </div>
-</template>
-
-<script>
-    import Schart from "vue-schart"; // 导入Schart组件
-    export default {
-        data() {
-            return {
-                options: {
-                    type: "bar",
-                    title: {
-                        text: "最近一周各品类销售图",
-                    },
-                    labels: ["周一", "周二", "周三", "周四", "周五"],
-                    datasets: [
-                        {
-                            label: "家电",
-                            data: [234, 278, 270, 190, 230],
-                        },
-                        {
-                            label: "百货",
-                            data: [164, 178, 190, 135, 160],
-                        },
-                        {
-                            label: "食品",
-                            data: [144, 198, 150, 235, 120],
-                        },
-                    ],
-                },
-            };
-        },
-        components: {
-            Schart,
-        },
-    };
-</script>
-<style>
-    .wrapper {
-        width: 7rem;
-        height: 5rem;
-    }
-</style>
-```
-
 ## License
 
 [MIT](https://github.com/lss5270/vue-manage-system-plus/blob/main/LICENSE)

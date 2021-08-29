@@ -173,39 +173,13 @@
 				</el-card>
 			</el-col>
 		</el-row>
-		<el-row :gutter="20">
-			<el-col :span="12">
-				<el-card shadow="hover">
-					<schart
-						ref="bar"
-						class="schart"
-						canvas-id="bar"
-						:options="options"
-					/>
-				</el-card>
-			</el-col>
-			<el-col :span="12">
-				<el-card shadow="hover">
-					<schart
-						ref="line"
-						class="schart"
-						canvas-id="line"
-						:options="options2"
-					/>
-				</el-card>
-			</el-col>
-		</el-row>
 	</div>
 </template>
 
 <script>
-import Schart from 'vue-schart';
 export default {
 	name: 'DashBoard',
 	title: '系统首页',
-	components: {
-		Schart
-	},
 	data() {
 		return {
 			// name: JSON.parse(sessionStorage.getItem('userInfo')).nickName,
