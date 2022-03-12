@@ -15,7 +15,7 @@
         "npm"
     ],
     "homepage": "https://lss5270.github.io/vue-manage-system-plus-demo/",
-    "author": "chenweize <904216175@qq.com> (https://github.com/chenweize)",
+    "author": "lss <81438234@qq.com> (https://github.com/lss5270)",
     "license": "MIT",
     "scripts": {
         "dev": "npm run serve",
@@ -27,11 +27,14 @@
         "axios": "^0.21.1",
         "core-js": "~3.9.1",
         "element-plus": "1.0.2-beta.33",
+        "markdown-loader": "^6.0.0",
         "vue": "~3.0.7",
         "vue-cropperjs": "^5.0.0",
         "vue-i18n": "^9.0.0",
         "vue-loader-v16": "^16.0.0-beta.5.4",
+        "vue-markdown": "^2.2.4",
         "vue-router": "~4.0.4",
+        "vue-schart": "^2.0.0",
         "vuex": "~4.0.0"
     },
     "devDependencies": {
@@ -45,9 +48,8 @@
         "eslint": "~6.8.0",
         "eslint-plugin-vue": "~7.7.0",
         "mockjs": "^1.1.0",
-        "node-sass": "^4.14.1",
         "sass": "~1.32.8",
-        "sass-loader": "^7.3.1",
+        "sass-loader": "~8.0.2",
         "vue-cli-plugin-element-plus": "0.0.13",
         "webpack": "4.44.2"
     },

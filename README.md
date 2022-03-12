@@ -52,7 +52,7 @@ vue发布3.0已经有一段时间了，一直想练练手。github上搜了一�
 ## 安装步骤
 
 ```
-git clone https://github.com/lss5270/vue-manage-system-plus.git      // 把模板下载到本地
+git clone https://github.com/chenweize/vue3-admin.git      // 把模板下载到本地
 cd vue-manage-system-plus    // 进入模板目录
 npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
 

@@ -29,8 +29,7 @@
 <script>
 export default {
 	name: 'I18n',
-	title: '国际化语言',
-	hidden: true,
+	title: '国际化语言'
 };
 </script>
 

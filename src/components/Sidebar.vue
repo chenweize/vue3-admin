@@ -99,9 +99,9 @@ export default {
 			const res = await store.dispatch('user/getPermissionMenu', par)
 			if (res){ 
 				console.log('接口返回的菜单数组为：', res)
+				// this.menuItems = res
 			}
 		}
-		
 		return {
 		    currentPath,
 			collapse,

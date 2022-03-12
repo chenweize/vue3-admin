@@ -42,26 +42,16 @@ Mock.mock(RegExp('/v1/getPermissionMenu' + ".*"), 'post', (options) => {
 				path: '/dashboard',
 				title: '系统首页'
 			},
-			// {
-			// 	icon: 'el-icon-office-building',
-			// 	path: '/org',
-			// 	title: '组织机构',
-			// 	children: [
-			// 		{
-			// 			path: '/org/roleManage/index',
-			// 			title: '角色管理'
-			// 		},
-			// 		{
-			// 			path: '/org/postManage/index',
-			// 			title: '岗位管理'
-			// 		},
-			// 	]
-			// },
+			{
+				icon: 'el-icon-lx-cascades',
+				path: '/baseTable',
+				title: '基础表格'
+			},
 			{
 				icon: 'el-icon-lx-global',
 				path: '/i18n',
 				title: '国际化功能',
-				hidden: true
+				// hidden: true
 			},
 			{
 				icon: 'el-icon-lx-warn',

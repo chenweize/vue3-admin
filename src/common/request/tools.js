@@ -14,7 +14,6 @@ export const getSignString = (data) => {
 			m++;
 		}
 	}
-	console.log(dataStr.join('&'))
 	return dataStr.join('&');
 }
 

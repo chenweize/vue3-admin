@@ -6,15 +6,13 @@ module.exports = {
 	lintOnSave: process.env.NODE_ENV !== 'production',
 	productionSourceMap: false,
 	devServer: {
-		// overlay: { // eslint校验开启
-		// 	warnings: true,
-		// 	errors: true
-		// },
-		proxy: {
-			'/api': {
-				target: 'http://localhost:3000'
-			},
+		overlay: { // eslint校验开启
+			warnings: true,
+			errors: true
 		},
+		/* proxy: {
+			'/api': 'http://localhost:3000',
+		}, */
 	},
 	css: {
 		
@@ -23,6 +21,8 @@ module.exports = {
 	    config.module
 			.rule('md')
 			.test(/\.md$/)
+			.use('markdown-loader')
+			.loader('markdown-loader')
 	        .end()
 	}
 	
